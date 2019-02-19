@@ -7,11 +7,11 @@ Scanner s=new Scanner(System.in);
 int a=s.nextInt();
 if(a>0)
 {
-System.ou.print("Postive");
+System.out.print("Postive");
 }
-else if(z<0)
+else if(a<0)
 {
-System.out.print("Negative);
+System.out.print("Negative");
 }
 else
 System.out.print("Zero");
