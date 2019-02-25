@@ -8,7 +8,10 @@ public class g14
         int n=s.nextInt();
         for(int i=m;i<n;i++)
         {
-            if((i%2)!=0)
+            if(i==1)
+            {
+            }
+            else if((i%2)!=0)
             {
             System.out.print(i+" ");
             }
